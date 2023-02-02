@@ -10,25 +10,33 @@
 <body>
     <div class="container">
         <h1>Registration Form</h1>
-        <!-- <label for="name">Name</label> -->
+        <div class="label">
+        <label for="name">Name</label></div>
+    
         <div class="name">
         <input type="text" name="name" class="input" placeholder="Enter your First Name"required>
         <input type="text" name="name" class="input" placeholder="Enter your Last Name"required>
     </div>
         <br><br>
-        <!-- <label for="Phone_no">Phone No.</label> -->
+        <div class="label">
+        <label for="Phone_no">Phone No.</label></div>
+    
         <div class="phone">
         <input type="number" name="Phone_no" class="input" placeholder="Enter your Mobile No." required>
         <input type="number" name="Phone_no" class="input" placeholder="Enter Alternate No.">
     </div>
         <br><br>
-        <!-- <label for="username" >Username</label> -->
+        <div class="label" id="label3">
+        <label for="username" >Username</label>
+        <label for="email">E-mail</label>
+    </div>
         <div class="user">
         <input type="text" name="username" class="input" placeholder="Enter your Username" required>
-        <!-- <label for="email">E-mail</label> -->
         <input type="email" name="email" class="input" placeholder="Enter Your Email" required>
     </div>
         <br><br>
+        <div class="label">
+        <label for="password">Password</label></div>
         <div class="password">
         <input type="password" name="password" class="input" placeholder="Enter your Password" required>
         <input type="password" name="password2" class="input" placeholder="Re-enter your Password" required>
