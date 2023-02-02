@@ -1,0 +1,63 @@
+@import url("font-family: 'Open Sans', sans-serif;");
+body{
+    margin: 0px;
+    background-color: rgb(56, 190, 179);
+}
+.container{
+    background-color: white;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 10px  40px;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+.container h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.input{
+    /* border: 2px solid black; */
+    width: 45%;
+    padding: 10px;
+    height: 10px;
+    /* margin: 10px; */
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: 300;
+}
+.name ,.phone ,.user,.password{
+ /* border: 2px solid black; */
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ height: auto;
+ /* margin:  0px auto; */
+ padding: 10px;
+}
+.button{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    height: 33px;
+    padding: 0px 25%;
+}
+#submit,#reset{
+    width: 90px;
+    font-size: large;
+    border: none;
+    font-weight: 400;
+    border-radius: 20px;
+    background-color: rgb(94, 197, 189);
+    color: white;
+    
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: rgb(71, 192, 181);
+
+}
