@@ -54,7 +54,8 @@ nav img{
   display: flex;
 }
 .image {
-  width: 60%;
+  width: 40%;
+  margin-top: 130px;
 }
 img {
   max-width: 100%;
@@ -65,9 +66,7 @@ img {
 
 .text {
   font-size: 20px;
-  padding-left: 20px;
-  padding-bottom: 15%;
-
+  padding-left: 90px;
 
 }
 
@@ -106,19 +105,39 @@ h3 {
 .icon:hover .hidden {
   visibility: visible;
 }
-
-.book {
-  width: 50%;
-  margin-left: 20px;
-}
 .reading {
-
   background-color: bisque;
-
 }
 .reading svg {
   display: block;
 }
 .ok {
   margin-top: 300px;
+}
+.reading h1{
+ margin-bottom: 40px;
+ color:rgb(126, 90, 42);
+
+}
+.container2 {
+  align-items: center;
+  display: flex;
+  padding-top: 100px;
+}
+
+.book {
+  margin-left: 50px;
+  width: 50%;
+  
+}
+.book img{
+  border:solid rgb(126, 90, 42) 5px;
+  box-shadow: 12px 12px 2px 1px rgb(193, 148, 89);
+
+}
+
+.library {
+  margin-left: 120px;
+  padding-bottom: 40px;
+  font-size: 20px;
 }
