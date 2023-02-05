@@ -69,7 +69,7 @@ margin-top: 130px;
 .image img{
   
   border: solid rgb(21, 139, 129) 5px;
-  box-shadow: 12px 12px 2px 1px rgb(43, 222, 207);
+  box-shadow:  2px 30px 25px 15px rgb(136, 231, 223);
 }
 
 
@@ -136,14 +136,16 @@ padding-bottom: 40px;
 }
 
 .book {
+  height: 430px;
 margin-left: 50px;
-width: 47%;
+width: 45%;
+
 
 
 }
 .book img{
 border:solid rgb(126, 90, 42) 5px;
-box-shadow: 12px 12px 2px 1px rgb(193, 148, 89);
+box-shadow: 18px 18px 18px 1px rgb(193, 148, 89);
 
 }
 
@@ -159,12 +161,13 @@ display: flex;
 padding-top: 70px;
 }
 .quiz{
-  width: 47%;
+  height: 430px;
+  width: 43%;
   padding-left: 50px;
 }
 .quiz img {
   border:solid rgb(14,38,52) 5px;
-box-shadow: 12px 12px 2px 1px rgb(42,95,123);
+box-shadow: 18px 18px 18px 2px rgb(42,95,123);
 }
 .quiz-link {
   padding-left: 200px;
@@ -184,12 +187,13 @@ padding-top: 70px;
 
 }
 .register {
-  width: 46%;
+  height: 430px;
+  width: 45%;
   padding-left: 50px;
 }
 .register img{
   border:solid rgb(56, 56, 56) 5px;
-box-shadow: 12px 12px 2px 1px rgb(128, 128, 128);
+box-shadow: 18px 18px 18px 1px rgb(128, 128, 128);
 
 }
 .register-link {
