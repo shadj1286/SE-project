@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="Registration_Form.css">
 </head>
 <body>
+    <!-- <h1>Register</h1> -->
+    <form action="Academic_detail.html" autocomplete="on">
     <div class="container">
-        <h1>Registration Form</h1>
+        <fieldset>
+            <legend><h1>Registration Form</h1></legend>
         <div class="label">
         <label for="name">Name</label></div>
     
@@ -22,8 +25,8 @@
         <label for="Phone_no">Phone No.</label></div>
     
         <div class="phone">
-        <input type="number" name="Phone_no" class="input" placeholder="Enter your Mobile No." required>
-        <input type="number" name="Phone_no" class="input" placeholder="Enter Alternate No.">
+        <input type="digit" name="Phone_no" class="input" placeholder="Enter your Mobile No." required>
+        <input type="digit" name="Phone_no" class="input" placeholder="Enter Alternate No.">
     </div>
         <br><br>
         <div class="label" id="label3">
@@ -44,10 +47,11 @@
         <br><br>
         <div class="button">
         <button type="submit" name="submit" id="submit" >Submit</button>
-        <!-- <button type="reset" name="reset" id="reset">Reset</button> -->
+        <button type="reset" name="reset" id="reset">Reset</button>
     </div>
 
-
+</fieldset>
     </div>
+</form>
 </body>
 </html>
