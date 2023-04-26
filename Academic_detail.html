@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Detail</title>
+    <link rel="stylesheet" href="Academic_detail.css">
+</head>
+<body>
+    
+    <form action="submit.py" autocomplete="on">
+        <div class="container">
+            <fieldset>
+                <legend><h1>Enter Academic Detail</h1></legend>
+                <div class="course">
+                    <label for="course">Course</label>
+                    <input type="text" id="course" name="course" value="Computer Science Honours" readonly>
+                    <label for="subject">Subject</label>
+                    <select name="subject" id="subject">
+                    <option value="Data_Structure">Data Structure</option>
+                    <option value="Algo">Design and Analysis of Algorithm</option>
+                    <option value="java">java</option>
+                    <option value="cpp">C++</option>
+                    <option value="csa">CSA(somputer System Architecture)</option>
+                    <option value="webD">Web Devlopment</option>
+                    <option value="SE">Software Engineering</option>
+                    <option value="DBMS">Database Management System(DBMS)</option>
+                    <option value="R">Introduction to R programming</option>
+                </select>
+                </div>
+            </fieldset>
+        </div>
+    </form>
+</body>
+</html>
